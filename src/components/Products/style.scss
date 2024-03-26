@@ -1,0 +1,94 @@
+.Products-container{
+  padding: 0 365px 0 365px;
+  display: flex;
+  justify-content: center;
+  margin-top: 193px;
+  flex-direction: column;
+}
+
+.Products-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.Products-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  p:first-of-type{
+    font-family: "Covered By Your Grace", cursive;
+    color: #EEC044;
+    font-size: 24px;
+  }
+  p:last-of-type{
+    font-weight: bolder;
+    font-size: 48px;
+  }
+}
+
+.CardProduct-container{
+  width: 370px;
+}
+
+.CardProduct-info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CardProduct-info-title{
+  p{
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 9px 0 0 0;
+  }
+}
+
+.CardProduct-info-price{
+  p{
+    color: #4BAF47;
+    font-size: 16px;
+  }
+}
+
+.Products-infoCards{
+  margin-top: 122px;
+  margin-left: 3px;
+  display: flex;
+  gap: 25px;
+  position: absolute;
+  padding-top: 1550px;
+}
+
+.CardInfo-container{
+  width: 570px;
+  height: 300px;
+  padding: 42px 50px;
+}
+
+.CardInfo-text{
+  color: white;
+  p{
+    width: 300px;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 50px;
+    margin-top: 10px;
+    line-height: 50px;
+  }
+  span{
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}
+
+.CardInfo-button{
+  margin-top: 24px;
+  button{
+    padding: 15px 32px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+  }
+}

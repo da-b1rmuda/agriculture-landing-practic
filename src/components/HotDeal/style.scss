@@ -1,0 +1,64 @@
+.HotDeal-container{
+  padding: 0 365px 0 365px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 105px;
+}
+
+.HotDeal-text{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  p:first-of-type{
+    font-family: "Covered By Your Grace", cursive;
+    color: #EEC044;
+    font-size: 24px;
+  }
+  p:last-of-type{
+    font-weight: bolder;
+    font-size: 48px;
+  }
+}
+
+.CardDeal-img{
+  img{
+    width: 270px;
+  }
+}
+
+.HotDeal-cards{
+  display: flex;
+  margin: 50px 10px 0 0;
+  gap: 30px;
+}
+
+.CardDeal-info{
+  margin-top: -5px;
+  margin-left: 4px;
+}
+
+.CardDeal-info-title{
+  p{
+    font-weight: bolder;
+    font-size: 22px;
+    margin: 9px 0 0 0;
+  }
+}
+
+.CardDeal-info-price{
+  p{
+    color: #4BAF47;
+    font-size: 16px;
+  }
+}
+
+.CardDeal-info__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardDeal-info-rate{
+  margin: 5px 20px 0 0;
+}

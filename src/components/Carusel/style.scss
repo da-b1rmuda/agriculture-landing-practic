@@ -1,0 +1,97 @@
+.Carusel-container{
+  height: 790px;
+  background-image: url("/assets/carusel-bg.png");
+  padding: 0 365px 0 365px;
+}
+
+.Carusel-text{
+  width: 496px;
+  padding-top: 233px;
+  padding-left: 8px;
+  p:first-of-type{
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 130px;
+    color: #EEC044;
+    line-height: 50px;
+    position: relative;
+  }
+  p:last-of-type{
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 10px;
+    line-height: 100px;
+  }
+}
+
+.Carusel-button{
+  padding-top: 44px;
+  margin-left: 7px;
+  button{
+    color: white;
+    background-color: #4BAF47;
+    padding: 19px 52px;
+    border-radius: 10px;
+    border: none;
+  }
+}
+
+.Carusel-info{
+  margin-top: 138px;
+  margin-left: 5px;
+  margin-right: 9px;
+  background-color: white;
+  padding: 42px 50px;
+  border-radius: 10px;
+  height: 142px;
+  display: flex;
+}
+
+.Carusel-info-container{
+  display: flex;
+  gap: 24px;
+  p{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  span{
+    font-size: 16px;
+    color: #878680;
+  }
+
+  &:first-of-type{
+    margin-right: 72px;
+  }
+  &:last-of-type{
+    margin-left: 68px;
+  }
+}
+
+.Carusel-info-container__center{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  border-right: 1px solid #E6E6E6;
+  border-left: 1px solid #E6E6E6;
+}
+
+.Carusel-info-container__img{
+  display: flex;
+  align-items: center;
+}
+
+.Carusel-button__select{
+  display: flex;
+  flex-direction: column;
+  margin-top: 325px;
+  margin-right: -15px;
+  gap: 10px;
+  img{
+    width: 90px;
+  }
+}
+
+.Carusel-wrapper{
+  display: flex;
+  justify-content: space-between;
+}

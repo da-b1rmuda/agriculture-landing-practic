@@ -1,0 +1,64 @@
+.OrganicFood-container{
+  padding: 0 365px 0 353px;
+  margin-top: 238px;
+  display: flex;
+}
+
+.OrganicFood-img{
+  padding-right: 40px;
+}
+
+.OrganicFood-text__title{
+  p:first-of-type{
+    font-family: "Covered By Your Grace", cursive;
+    color: #EEC044;
+    font-size: 24px;
+    line-height: 22px;
+  }
+  p:last-of-type{
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 28px;
+  }
+  span{
+    color: #878680;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+.OrganicFood-text__farm-container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+}
+
+.OrganicFood-text__farm{
+  display: flex;
+  p{
+    font-weight: bolder;
+    font-size: 22px;
+  }
+  span{
+    color: #878680;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+.OrganicFood-text__farm__text{
+  margin-left: 20px;
+}
+
+.OrganicFood-text__button{
+  margin-top: 40px;
+  button{
+    color: white;
+    font-weight: bold;
+    padding: 20px 50px;
+    background-color: #4BAF47;
+    border-radius: 10px;
+    border: none;
+  }
+}
